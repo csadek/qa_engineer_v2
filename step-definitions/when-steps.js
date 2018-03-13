@@ -1,5 +1,5 @@
 module.exports = function () {
-  this.When(/^I send API request to Addidus landing page$/, async () => {
+  this.When(/^I send API request to adidas landing page$/, async () => {
     // count number of items and working balance then add budget item
     this.APIResponse = await page.core.jsActions.sendHttpRequest(shared.testData.APIURL);
   });

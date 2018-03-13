@@ -1,8 +1,8 @@
-# QA-automation-assignment :: Automation testing project to test addidus basic functionality and API
+# QA-automation-assignment :: Automation testing project to test adidas basic functionality and API
 
 ### What is this repository for? ###
 
-This Test Project is intended to build a solid framework to test addidus basic functionality and API.
+This Test Project is intended to build a solid framework to test adidas basic functionality and API.
 The framework should be maintainable. I have eight UI scenarios automated with all its dependencies and 3 API scenarios.
 
 ### features:

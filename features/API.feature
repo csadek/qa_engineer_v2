@@ -1,11 +1,11 @@
 @API
 # As a <type of user> I want <some goal> so that <some reason>
-Feature: Addidus API
+Feature: adidas API
 As a User I want to send API request to the landing page
 So that I can perform tasks related to it
 
-    Background: Visit Addidus Home Page
-        When I send API request to Addidus landing page
+    Background: Visit adidas Home Page
+        When I send API request to adidas landing page
 
     @LandingAPI
     Scenario: Check Analytics Data of Each Component

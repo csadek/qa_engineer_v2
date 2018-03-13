@@ -1,11 +1,11 @@
 @web @UI
 # As a <type of user> I want <some goal> so that <some reason>
-Feature: Addidus
-As a User I want to navigate to Addidus home page
+Feature: adidas
+As a User I want to navigate to adidas home page
 So that I can perform tasks related to it
 
-    Background: Visit Addidus Home Page
-        Given I am on Addidus home page
+    Background: Visit adidas Home Page
+        Given I am on adidas home page
 
     @search
     Scenario Outline: Search Item

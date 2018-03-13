@@ -27,7 +27,7 @@ First you should get the App under test and run it. Then you should get the test
 * Database configuration
 	- No DB required
 * How to run tests
-	-  git clone https://github.com/csadek/qa-automation-assignment.git - get the tests
+	-  git clone https://github.com/csadek/qa_engineer_v2.git - get the tests
 	- npm run lint - lint check
 	- npm run fix - lint check + autofixes + prettify code with prettier
 	- npm run test - run test suite
@@ -79,32 +79,4 @@ SELENIUM ARCHITECTURE HERE
 
 ### Test Scope
 
-The scope of testing here is having a full coverage for the manual scenarios written below for both happy and negative scenarios. However, automation is only covering 3 scnearios. The first scneario is intended to fail. browser supported is :
-
-- Google Chrome
-
-<details>
-<summary>View test plan:</summary>
-## Test Plan
-
-TestID | Test Case | Expected Result | Actual Result | Result | Related Comment
------------- | ------------- | -------------- | -------------- | ----- | ------
-1 | Check that user can add income budget item successfully | Item should be added with budget category, description and value | Item is added successfully with all its details |  :white_check_mark:  |
-2 | Check that user can add expenses budget item successfully | Item should be added with budget category, description and value | Item is added successfully with all its details |  :white_check_mark:  |
-3 | Check budget item display on the gird view | Amount should be displayed as currency with $ sign and 2 decimal points.Expenses should be displayed with minus sign and red text however income should be displayed with plus sign and green text |  Amount is displayed as currency with $ sign and 2 decimal points.Expenses are displayed with minus sign and red text however income is displayed with plus sign and green text | :white_check_mark:  |
-4 | Check that user can edit budget item successfully | Item should be updated with budget category, description and value. | Not implemented feature |  :construction:  |
-5 | Check that user can delete budget item successfully | Item should be deleted. | Not implemented feature |  :construction:  |
-6 | Check budget categories list | Categories list should be filled with all categories | Categories list is populated correctly |  :white_check_mark:  |
-7 | Check budget categories default value | Default value should be displayed | When adding an item default category is displayed |  :white_check_mark:  |
-8 | Check adding item with no description. | User can add item with no description | Item is added successfully and description column is empty |  :white_check_mark:  |
-9 | Check description field maximum length | Description field should have max length based on business owner ex:250 character | No Max length is applied |  :red_circle:  |
-10 | Check when adding item with zero value.| Item should not be added as amount is zero and will not reflect the calculations | Item added with zero amount |  :red_circle:  | That issue can be as expected
-11 | Check adding item with negative value | Sign should not be allowed as it is displayed based on the item category | Sign is allowed but will not be considered at display or calculations |  :red_circle:  |
-12 | Check value field maximum length | Amount should have maximum length accepted length ex: 43 | Length is accepted up to 309 digit which corrupt the layout of the app |  :red_circle:  |
-13 | Check max number of budget items to add. | No max limit should be allowed |  User can add any number of items | :white_check_mark:  |
-14 | Add expenses with value greater than income | Working balance should be negative value | Working balance is positive value |  :red_circle:  |
-15 | Add expenses with value less than income | Working balance should be positive | Working balance is positive value |  :white_check_mark:  |
-16 | Check work balance calculation when adding any value | Work balance should be equal income minus expenses | Work balance is calculated correctly |  :white_check_mark:  |
-17 | Check inflow vs outflow reports | Report should be automatically updated and display 2 bars one for inflow and the other with outflow items.Only categories with the added items should be displayed | Reports are displayed correctly |  :white_check_mark:  |
-18 | Check spending by category reports | Report should display all the expenses by category as dough nut chart. | Reports are displayed correctly |  :white_check_mark:  |
-</details>
+The scope of testing here is having a full coverage for the manual scenarios written at the feature files. However, automation is only covering basic scnearios. The first API scenario fails as every component does not have at least analyAcs data “analyAcs_name” in it.

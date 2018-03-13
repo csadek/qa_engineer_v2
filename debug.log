@@ -1,0 +1,42 @@
+[0305/210142.362:ERROR:exception_handler_server.cc(526)] ConnectNamedPipe: The pipe is being closed. (0xE8)
+[0305/210153.350:ERROR:exception_handler_server.cc(526)] ConnectNamedPipe: The pipe is being closed. (0xE8)
+[0305/210240.557:ERROR:exception_handler_server.cc(526)] ConnectNamedPipe: The pipe is being closed. (0xE8)
+[0305/211557.954:ERROR:exception_handler_server.cc(526)] ConnectNamedPipe: The pipe is being closed. (0xE8)
+[0305/211618.789:ERROR:exception_handler_server.cc(526)] ConnectNamedPipe: The pipe is being closed. (0xE8)
+[0305/211643.447:ERROR:exception_handler_server.cc(526)] ConnectNamedPipe: The pipe is being closed. (0xE8)
+[0305/212315.118:ERROR:exception_handler_server.cc(526)] ConnectNamedPipe: The pipe is being closed. (0xE8)
+[0305/212727.953:ERROR:exception_handler_server.cc(526)] ConnectNamedPipe: The pipe is being closed. (0xE8)
+[0306/020434.797:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0306/020434.798:ERROR:exception_snapshot_win.cc(88)] thread ID 11884 not found in process
+[0306/020434.795:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0306/020434.798:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0306/020434.798:ERROR:exception_snapshot_win.cc(88)] thread ID 9584 not found in process
+[0306/020434.798:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0306/020932.360:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0306/020932.360:ERROR:exception_snapshot_win.cc(88)] thread ID 11120 not found in process
+[0306/020932.360:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0306/020932.361:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0306/020932.362:ERROR:exception_snapshot_win.cc(88)] thread ID 2008 not found in process
+[0306/020932.362:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0306/020932.365:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0306/020932.367:ERROR:exception_snapshot_win.cc(88)] thread ID 11704 not found in process
+[0306/020932.367:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0312/185340.532:ERROR:exception_handler_server.cc(526)] ConnectNamedPipe: The pipe is being closed. (0xE8)
+[0312/193010.320:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0312/193010.322:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0312/193010.322:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0312/193010.322:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0312/193010.322:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0312/193010.322:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0312/193010.322:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0312/193010.323:ERROR:exception_snapshot_win.cc(88)] thread ID 3700 not found in process
+[0312/193010.323:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0312/193010.334:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0312/193010.334:ERROR:exception_snapshot_win.cc(88)] thread ID 15868 not found in process
+[0312/193010.334:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0312/193010.334:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0312/193010.334:ERROR:exception_snapshot_win.cc(88)] thread ID 17928 not found in process
+[0312/193010.334:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[0312/193010.350:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0312/193010.350:ERROR:exception_snapshot_win.cc(88)] thread ID 13236 not found in process
+[0312/193010.350:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed

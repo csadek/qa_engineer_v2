@@ -1,0 +1,24 @@
+{
+  "extends": "airbnb-base",
+  "globals": {
+    "helpers": true,
+    "page": true,
+    "shared": true,
+    "driver": true,
+    "expect": true,
+    "by":true,
+    "until":true,
+    "assert":true,
+    "window": true,
+    "selenium":true
+  },
+  "rules": {
+    "camelcase": "error",
+    "func-names":"off",
+    "arrow-body-style":"off",
+    "no-await-in-loop":"off",
+    "radix":"off",
+    "no-restricted-syntax":"off",
+    "no-prototype-builtins":"off"
+  }
+}

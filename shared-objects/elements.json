@@ -1,0 +1,46 @@
+{
+  "homePage-search-textBox": {
+    "locator": "css",
+    "selector": "div[class='main-menu___ppYmM']+div>div>form>input"
+  },
+  "searchPage-searchResult-msg": {
+    "locator": "className",
+    "selector": "rbk-search-value search-value"
+  },
+  "searchPage-filter-links": {
+    "locator": "css",
+    "selector": "span[class='filtervalue']"
+  },
+  "searchPage-selectedfilter-link": {
+    "locator": "css",
+    "selector": "div[class='selected-filters ']>:nth-child(4)>div>A>span[class='filtervalue']"
+  },
+  "searchPage-products-links": {
+    "locator": "className",
+    "selector": "image plp-image-bg"
+  },
+  "searchPage-products-names": {
+    "locator": "css",
+    "selector": "span[class='title']"
+  },
+  "productPage-product-title": {
+    "locator": "css",
+    "selector": "h1[data-auto-id='product-title']"
+  },
+  "searchPage-wishList-icon": {
+    "locator": "className",
+    "selector": "wishlist-icon"
+  },
+  "searchPage-wishList-link": {
+    "locator": "className",
+    "selector": "wishlist-count"
+  },
+  "wishListPage-product-name": {
+    "locator": "className",
+    "selector": "name"
+  },
+  "searchPage-wishList-count": {
+    "locator": "css",
+    "selector": "a[id='wishlist-count']>span"
+  }
+}
